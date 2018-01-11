@@ -51,3 +51,21 @@ nav li {
   color: #7C7C7C;
   font-weight: normal;
 }
+
+/** Banner Section **/
+.banner {
+  display: flex;
+  background-color: #90D2B2;
+  height: 30rem;
+  padding: 2rem 0 2rem 1.5rem;
+}
+
+.banner img{
+  width: 60%;
+}
+
+.intro{
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+}
