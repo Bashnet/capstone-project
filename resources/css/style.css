@@ -1,0 +1,53 @@
+/** Universal Section **/
+html{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px
+}
+
+main{
+  padding-top: 4rem;
+}
+
+/** Header Section **/
+header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px rgba(0, 0, 0, .5)
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+nav{
+  padding-right: 1.5rem;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li {
+  padding-left: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  height: 2rem;
+}
+
+.logo span{
+  color: #7C7C7C;
+  font-weight: normal;
+}
