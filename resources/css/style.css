@@ -1,7 +1,10 @@
 /** Universal Section **/
 html{
-  font-family: 'Rubik', sans-serif;
   font-size: 16px
+}
+
+body{
+  font-family: 'Rubik', sans-serif;
 }
 
 main{
@@ -57,12 +60,16 @@ nav li {
 .banner {
   display: flex;
   background-color: #90D2B2;
-  height: 30rem;
-  padding: 2rem 0 2rem 1.5rem;
 }
 
-.banner img{
+.banner-img{
   width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%
 }
 
 .intro{
@@ -71,7 +78,7 @@ nav li {
   padding-left: 1.5rem;
 }
 
-.content h1{
+ h1{
   font-family: 'Quicksand', sans-serif;
   font-size: 3rem;
   font-weight: bolder;
@@ -94,9 +101,72 @@ nav li {
   padding: .5rem 0;
   border-radius: .5rem;
   transition: background-color 500ms;
-  box-shadow: 1px 1px 10px 0px #000;
 }
 
 .button:hover{
   background-color: #CE7C87;
+    box-shadow: 1px 1px 10px 0px #000;
+}
+
+/** Info Section **/
+.article {
+  display: flex;
+  padding: 2rem 0;
+}
+
+.study {
+  width: 60%;
+  padding: 0 1.5rem;
+}
+
+.study img {
+  width: 100%;
+
+}
+
+.study h1 {
+  font-size: 2rem;
+  padding:2rem 0 1.5rem 0;
+}
+
+.study p{
+  padding-bottom: 2rem;
+  line-height: 1.4;
+}
+
+.study p:first-of-type {
+  color: #3C3D3B;
+}
+
+.contents {
+  display: flex;
+  align-items: center;
+  transition: background-color 500ms;
+}
+
+.contents:hover {
+  background-color: #BDC4AF;
+}
+
+.img-container{
+  margin: 1rem 1rem;
+  width: 35%;
+  height: auto;
+}
+
+.img-container img{
+  width: 100%;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.info-main p {
+  padding: .5rem 0;
 }
