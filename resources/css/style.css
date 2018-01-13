@@ -76,6 +76,7 @@ nav li {
   display: flex;
   align-items: center;
   padding-left: 1.5rem;
+  max-width: 34%;
 }
 
  h1{
@@ -135,7 +136,7 @@ nav li {
 }
 
 .study p:first-of-type {
-  color: #3C3D3B;
+  color: #9EA29A;
 }
 
 .contents {
@@ -167,6 +168,68 @@ a {
   text-decoration: none;
 }
 
+.info {
+  max-width: 36%;
+}
+
 .info-main p {
   padding: .5rem 0;
+}
+
+/** Subjects Section **/
+.subjects {
+  background-color: #90D2B2;
+}
+
+.subjects h1 {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 4.5rem;
+  padding: 1rem 0;
+  justify-content: center;
+}
+
+.item {
+  margin: 1rem;
+  max-width: 30%;
+  background-color: #FFF;
+  transition: all 500ms;
+}
+
+.item:hover {
+  background-color: #051C38;
+  box-shadow: 1px 1px 8px 3px #000;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  padding: 1rem 1rem 1.5rem 1rem;
+  transition: color 500ms;
+}
+
+.description:hover {
+  color: #00FF56
+}
+
+.description h3 {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.description h4 {
+  padding: .5rem 0;
+}
+
+.description p {
+  line-height: 1.4;
+  font-size: 1.1rem;
 }
