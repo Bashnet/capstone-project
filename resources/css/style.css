@@ -58,14 +58,17 @@ nav li {
   align-items: center;
   padding-left: 1.5rem;
   font-weight: bold;
-  font-family: 'Merriweather Sans', sans-serif;
+  color: #3C976B;
+  font-family: 'Yatra One', cursive;
   font-size: 1.2rem;
   height: 2rem;
 }
 
 .logo span{
-  color: #7C7C7C;
+  color: #66111D;
+  font-family: 'Slabo 27px', serif;
   font-weight: normal;
+  opacity: .5;
 }
 
 /** Banner Section **/
@@ -87,12 +90,11 @@ nav li {
 .intro{
   display: flex;
   align-items: center;
-  padding-left: 1.5rem;
-  max-width: 34%;
+  max-width: 30%;
 }
 
  h1{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 3rem;
   font-weight: bolder;
 }
@@ -118,7 +120,7 @@ nav li {
 
 .button:hover{
   background-color: #CE7C87;
-    box-shadow: 1px 1px 10px 0px #000;
+  box-shadow: 1px 1px 10px 0px #000;
 }
 
 /** Info Section **/
@@ -134,7 +136,6 @@ nav li {
 
 .study img {
   width: 100%;
-
 }
 
 .study h1 {
@@ -144,11 +145,14 @@ nav li {
 
 .study p{
   padding-bottom: 2rem;
-  line-height: 1.4;
 }
 
 .study p:first-of-type {
   opacity: 0.5;
+}
+
+.info {
+  max-width: 36%;
 }
 
 .contents {
@@ -171,6 +175,10 @@ nav li {
   width: 100%;
 }
 
+.info-main p {
+  padding: .5rem 0;
+}
+
 h2 {
   font-weight: bold;
   font-size: 1.4rem;
@@ -180,14 +188,6 @@ a {
   text-decoration: none;
 }
 
-.info {
-  max-width: 36%;
-}
-
-.info-main p {
-  padding: .5rem 0;
-}
-
 /** Subjects Section **/
 .subjects {
   background-color: #90D2B2;
@@ -195,14 +195,14 @@ a {
 
 .subjects h1 {
   text-align: center;
-  padding-top: 2rem;
+  padding: 2rem 0 1rem;
 }
 
 .items {
   display: flex;
   flex-wrap: wrap;
   margin: 0 4.5rem;
-  padding: 1rem 0;
+  padding: 1rem 0 2rem;
   justify-content: center;
 }
 
@@ -246,6 +246,11 @@ a {
   padding: 2rem 0;
 }
 
+.exhibit {
+  display: flex;
+  padding-bottom: 2rem;
+}
+
 .vid {
   max-width: 60%;
   margin: 0 1.5rem;
@@ -264,11 +269,6 @@ video {
   width: 100%;
 }
 
-.exhibit {
-  display: flex;
-  padding-bottom: 2rem;
-}
-
 .info-main {
   width: 60%;
 }
@@ -280,6 +280,10 @@ footer {
  padding: 1rem 1.5rem 2rem;
  background-color: #90D2B2;
  border-top: 1px solid #D3D3D3;
+}
+
+footer p, .links {
+  opacity: .5;
 }
 
 .links a{
