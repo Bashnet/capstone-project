@@ -41,6 +41,10 @@ header{
   height: 64px;
 }
 
+.mobile {
+  display: none;
+}
+
 nav{
   padding-right: 1.5rem;
 }
@@ -69,6 +73,17 @@ nav li {
   font-family: 'Slabo 27px', serif;
   font-weight: normal;
   opacity: .5;
+}
+
+@media only screen and (max-width: 820px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    padding: 0 2rem;
+  }
 }
 
 /** Banner Section **/
@@ -121,6 +136,29 @@ nav li {
 .button:hover{
   background-color: #CE7C87;
   box-shadow: 1px 1px 10px 0px #000;
+}
+
+@media only screen and (max-width: 820px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-img {
+    padding: 0;
+    width: 100%;
+  }
+
+  .intro {
+    display: block;
+    padding: 2rem 1rem;
+    max-width: 100%;
+  }
+
+  .button {
+    background-color: #CE7C87;
+    box-shadow: 1px 1px 10px 0px #000;
+  }
 }
 
 /** Info Section **/
@@ -188,6 +226,42 @@ a {
   text-decoration: none;
 }
 
+.img-container-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 820px) {
+  .article {
+    padding: 1rem 1rem 2rem 1rem;
+    background-color: #BDC4AF;
+  }
+
+  .study {
+    display: none;
+  }
+
+  .info {
+    max-width: 100%;
+  }
+
+  .contents {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contents:nth-child(1n + 2) {
+    padding-top: 4rem;
+  }
+
+  .img-container-mobile {
+    display: block;
+  }
+
+  .img-container-mobile img {
+    width: 100%;
+  }
+}
+
 /** Subjects Section **/
 .subjects {
   background-color: #90D2B2;
@@ -224,12 +298,16 @@ a {
 }
 
 .description {
-  padding: 1rem 1rem 1.5rem 1rem;
+  padding: 0 1rem;
   transition: color 500ms;
 }
 
 .description:hover {
   color: #00FF56
+}
+
+.description h2{
+  padding-top: 1rem;
 }
 
 .description h4 {
@@ -238,6 +316,35 @@ a {
 
 .description p {
   font-size: 1.1rem;
+  padding-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 820px) {
+  .items {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 0 1rem;
+    padding: 1rem 0 1.5rem 0;
+  }
+
+  .item {
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: .5rem;
+  }
+
+  .item img {
+    display: none;
+  }
+
+  .title {
+    color: #00FF56;
+    background-color: #051C38;
+  }
+
+  .title h2{
+    padding-bottom: 1.5rem;
+  }
 }
 
 /** Thesis Section **/
@@ -273,6 +380,20 @@ video {
   width: 60%;
 }
 
+@media only screen and (max-width: 820px) {
+  .thesis h1 {
+    padding: 2rem 0 1rem 0;
+  }
+
+  .vid {
+    max-width: 100%;
+    margin: 0;
+  }
+  .exhibit {
+    padding-bottom: 1.5rem;
+  }
+}
+
 /** Footer Section **/
 footer {
  display: flex;
@@ -288,4 +409,13 @@ footer p, .links {
 
 .links a{
   padding-left: .5rem;
+}
+
+@media only screen and (max-width: 820px) {
+  footer {
+    padding: 1rem 1rem;
+  }
+  .links {
+    display: none;
+  }
 }
