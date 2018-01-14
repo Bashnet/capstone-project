@@ -11,6 +11,10 @@ main{
   padding-top: 4rem;
 }
 
+p{
+  line-height: 1.4;
+}
+
 /** Header Section **/
 header{
   width: 100%;
@@ -136,7 +140,7 @@ nav li {
 }
 
 .study p:first-of-type {
-  color: #9EA29A;
+  opacity: 0.5;
 }
 
 .contents {
@@ -220,16 +224,43 @@ a {
   color: #00FF56
 }
 
-.description h3 {
-  font-weight: bold;
-  font-size: 1.4rem;
-}
-
 .description h4 {
   padding: .5rem 0;
 }
 
 .description p {
-  line-height: 1.4;
   font-size: 1.1rem;
+}
+
+/** Thesis Section **/
+.thesis h1 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.vid {
+  max-width: 60%;
+  margin: 0 1.5rem;
+}
+
+.vid h2 {
+  padding-top: 1.5rem;
+}
+
+.vid p{
+  padding-top: .5rem;
+  opacity: 0.5;
+}
+
+video {
+  width: 100%;
+}
+
+.exhibit {
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.info-main {
+  width: 60%;
 }
