@@ -15,6 +15,14 @@ p{
   line-height: 1.4;
 }
 
+a{
+  transition: color 500ms
+}
+
+a:hover {
+  color: #FF2800
+}
+
 /** Header Section **/
 header{
   width: 100%;
@@ -263,4 +271,17 @@ video {
 
 .info-main {
   width: 60%;
+}
+
+/** Footer Section **/
+footer {
+ display: flex;
+ justify-content: space-between;
+ padding: 1rem 1.5rem 2rem;
+ background-color: #90D2B2;
+ border-top: 1px solid #D3D3D3;
+}
+
+.links a{
+  padding-left: .5rem;
 }
