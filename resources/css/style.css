@@ -75,6 +75,7 @@ nav li {
   opacity: .5;
 }
 
+/** Header Section-mobile **/
 @media only screen and (max-width: 820px) {
   .desktop {
     display: none;
@@ -138,6 +139,7 @@ nav li {
   box-shadow: 1px 1px 10px 0px #000;
 }
 
+/** Banner Section-mobile **/
 @media only screen and (max-width: 820px) {
   .banner {
     display: flex;
@@ -230,6 +232,7 @@ a {
   display: none;
 }
 
+/** Info Section-mobile **/
 @media only screen and (max-width: 820px) {
   .article {
     padding: 1rem 1rem 2rem 1rem;
@@ -319,6 +322,7 @@ a {
   padding-bottom: 1.5rem;
 }
 
+/** Subjects Section-mobile **/
 @media only screen and (max-width: 820px) {
   .items {
     flex-wrap: nowrap;
@@ -380,6 +384,7 @@ video {
   width: 60%;
 }
 
+/** Thesis Section-mobile **/
 @media only screen and (max-width: 820px) {
   .thesis h1 {
     padding: 2rem 0 1rem 0;
@@ -411,6 +416,7 @@ footer p, .links {
   padding-left: .5rem;
 }
 
+/** Footer Section-mobile **/
 @media only screen and (max-width: 820px) {
   footer {
     padding: 1rem 1rem;
