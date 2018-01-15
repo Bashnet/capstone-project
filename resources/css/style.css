@@ -344,10 +344,15 @@ a {
   .title {
     color: #00FF56;
     background-color: #051C38;
+    padding: 0 1rem;
   }
 
   .title h2{
     padding-bottom: 1.5rem;
+  }
+
+  .description {
+    padding: 0;
   }
 }
 
